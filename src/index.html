@@ -2,208 +2,184 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Мой первый сайт</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyProject</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <header>
-        <nav>
-            <div class="logo">Андрей Браун</div>
-            <div class="menu"><ul>
-                <li>Обо мне</li>
-                <li>Услуги</li>
-                <li>Кейсы</li>
-                <li>Прайсы</li>
-                <li>Отзывы</li>
-                <li>Контакты</li>
-            </ul></div>
-        </nav>
+        <section class="header_wrapper wrap">
+            
+            <nav class="navigation_wrapper">
+                <h1 class="header_title">Андрей Браун</h1>
+
+                <li class="nav_list">
+                    <ul class="nav_link">
+                        <p><a class="link_text" href="#about_wrapper">Обо мне</a></p>
+                    </ul>
+                    <ul class="nav_link">
+                        <a class="link_text" href="#">Услуги</a>
+                    </ul>
+                    <ul class="nav_link">
+                        <a class="link_text" href="#">Кейсы</a>
+                    </ul>
+                    <ul class="nav_link">
+                        <a class="link_text" href="#">Отзывы</a>
+                    </ul>
+                    <ul class="nav_link">
+                        <a class="link_text" href="#">Контакты</a>
+                    </ul>
+                </li>
+            </nav>
+
+            <div class="body_header">
+
+                <div class="body_header_wrapper">
+
+                    <div class="header_text">
+
+                        <h2 class="header_text_title iam">Привет</h2>
+                        <h2 class="header_text_title">Я Андрей Браун</h2>
+                        <p class="header_text_text">Фулл стрек веб - разработчик и Andriod - разработчик</p>
+                        <div class="links">
+                                <a href="#" class="btn"> Обо мне </a>
+                                <a href="#" class="btn"> Мои работы </a>
+                        </div>
+
+                    </div> 
+
+                    <img class="boy_img" src="img/BoyBG.png" alt="img_of_boy">   
+                </div>
+    
+            </div>
+
+
+
+        </section>
     </header>
 
-    <div class="main"><div class="title_container">
-        <h1>Привет <br>Я Андрей Браун</h1>
-        <h4>Фулл-стек веб-разработчик</h4>
-        <input type="submit" name="about_me" value="Обо мне">
-        <input type="submit" name="my_projects" value="Мои работы">
-    </div></div>
+    <main>
+        <section class="about_wrapper wrap">
+            <div class="about">
+                <h2 class="about_title titles"> Обо мне</h2>
+                <div class="line">
+                    <div class="line_inside"></div>
+                </div>
+                
+                <img class="about_photo" src="/img/Photo_1.png" alt="photo of a boy">
+                <p class="about_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis optio iure voluptatibus quas possimus, perspiciatis adipisci rerum voluptate nobis nulla accusamus dolorum omnis, dolorem dignissimos impedit vitae quam reprehenderit quasi neque odio perferendis saepe in?</p>
+                <p class="about_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad repudiandae unde quas magni, inventore perferendis aspernatur dolorum beatae, reiciendis aliquam culpa fugiat voluptate labore ipsam, assumenda neque ex quis illum. Quae reprehenderit fugit dolor repudiandae!</p>
+                <button class="about_btn" type="button">
+                    <ul class="btn_list">
+                        <li class="btn_list_item">
+                            <img src="img/icon_download.png" alt="button download">
+                        </li>
+                        <li class="btn_list_item">
+                            <p class="btn_text">Скачать резюме</p>
+                        </li>
+                    </ul>
+                </button>
+            </div>
 
 
-    <div class="info"><div class="info_container">
-        <div class="info_logo"><h3>ОБО МНЕ</h3></div>
-        <img src="img/Photo_1.png" alt="Картинка">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam necessitatibus incidunt autem deleniti nostrum inventore voluptate obcaecati rerum quis adipisci, quibusdam voluptatem eveniet sed nemo tenetur, iste architecto! Reprehenderit, facere aliquam corrupti eius modi distinctio, minus atque vero laudantium sed.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid omnis, sint vel ullam porro amet illum repellendus, eaque quas molestias placeat corporis nostrum eius animi! Fugiat repellendus molestias doloremque consectetur reiciendis laboriosam iste dolorem similique.</p>
-        <input type="submit" name="download_resume" value="Скачать резюме">
-    </div></div>
+        </section>
 
-    <div class="skills">
-       <div class="skills_container">
-            <div class="skills_logo"><h3>ЧТО Я УМЕЮ</h3></div>
-            <div class="my_skills">
+        <section class="whtaican_wrapper wrap">
 
-                <div class="web_skill">
-                    <img src="img/scills_icons/icon_pc.png" alt="Картинка компа">
-                    <div class="text_pc">Веб-дизайн</div>
-                    <div class="text_pc_big">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, quae!</div>
+            <div class="whatican">
+                <h2 class="whatican_title titles"> Что я умею</h2>
+
+                <div class="line">
+                    <div class="line_inside"></div>
                 </div>
 
-                <div class="dev_skill">
-                    <img src="img/scills_icons/icon_slash.png" alt="Картинка знак">
-                    <div class="text_dev">Разработка</div>
-                    <div class="text_dev_big">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, natus.</div>
-                </div>
+                <div class="whatican_list_wrapper">
 
-                <div class="ceo_skill">
-                    <img src="img/scills_icons/icon_rocket.png" alt="Картинка ракеты">
-                    <div class="text_ceo">CEO - оптимизация</div>
-                    <div class="text_ceo_big">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, omnis.</div>
-                </div>
+                    <ul class="whatican_list">
+                        <li class="whatican_list_item">
+                            <img class="whatican_list_img" src="img/scills_icons/icon_pc.png" alt="pc picture">
+                            <h3 class="whatican_list_title">Веб-дизайн</h3>
+                            <p class="whatican_list_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vitae nobis consectetur perferendis laboriosam modi.</p>
+                        </li>
+                        <li class="whatican_list_item">
+                            <img class="whatican_list_img" src="img/scills_icons/icon_slash.png" alt="slash picture">
+                            <h3 class="whatican_list_title">Разработка</h3>
+                            <p class="whatican_list_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vitae nobis consectetur perferendis laboriosam modi.</p>
+                        </li>
+                        <li class="whatican_list_item">
+                            <img class="whatican_list_img" src="img/scills_icons/icon_rocket.png" alt="rocket picture">
+                            <h3 class="whatican_list_title">CEO-оптимизация</h3>
+                            <p class="whatican_list_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vitae nobis consectetur perferendis laboriosam modi.</p>
+                        </li>
+                        <li class="whatican_list_item">
+                            <img class="whatican_list_img" src="img/scills_icons/icon_gramophone.png" alt="gramophone picture">
+                            <h3 class="whatican_list_title">Маркетинг</h3>
+                            <p class="whatican_list_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vitae nobis consectetur perferendis laboriosam modi.</p>
+                        </li>
+                    </ul>
 
-                <div class="marketing_skill">
-                    <img src="img/scills_icons/icon_gramophone.png" alt="Картинка громмофона">
-                    <div class="text_marketing">Маркетинг</div>
-                    <div class="text_marketing_big">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, dolor.</div>
                 </div>
 
             </div>
-        </div>
-    </div>
 
-    <div class="case_container">
+        </section>
 
-        <div class="container_name"><h3>КЕЙСЫ</h3></div>
-            <div class="case_text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptatum odit explicabo incidunt, maiores unde.</p></div>
-                <div class="case_img"><img src="img/pic_case.png" alt="Картинка в кейсах"></div>
-                    <div class="client_website">
-                        <div class="client"><p><b>Client:</b> <br>Какой-то клиент</p></div>
-                        <div class="website"><p><b>Website:</b> <br>Какой-то веб-сайт</p></div>
+        <section class="case_wrapper wrap">
+
+            <div class="case">
+
+                <h2 class="case_title titles">Кейсы</h2>
+                <div class="line">
+                    <div class="line_inside"></div>
+                </div>
+                <p class="case_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci natus quo vel quae voluptatem animi?</p>
+                <img class="case_img" src="img/pic_case.png" alt="site example">
+                <div class="case_footer">
+                    <div class="list_case_client">
+                        <ul class="list_case">
+                            <li class="case_list_item_title">
+                                <h3>Client:</h3>
+                            </li>
+                            <li class="case_list_item_text">
+                                <p>Some company</p>
+                            </li>
+                            <li class="case_list_item_title">
+                                <h3>Website:</h3>
+                            </li>
+                            <li class="case_list_item_text">
+                                <p>http://www.somedomain.com</p>
+                            </li>
+                            <li class="case_list_item_btn">
+                                <button class="case_btn">Visit live site</button>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="project">
-                        <div class="project_name"><b>Название проекта</b></div>
-                        <div class="project_dicsription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora eveniet autem cum laudantium, officiis nobis nisi dolores provident. Commodi voluptates, perferendis distinctio. Commodi eaque qui sed, maiores dignissimos minus ullam.</div>
+
+                    <div class="list_project">
+                        <ul class="project_list">
+                            <li class="list_project_title">
+                                <h3>Название проекта</h3>
+                            </li>
+                            <li class="list_project_text">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos assumenda at provident odit, doloremque voluptas expedita maiores aperiam qui officia. Similique rem cum, explicabo veritatis sunt laudantium beatae sequi, eaque neque dolorum vero et voluptatibus voluptatum modi nihil iure consequatur?</p>
+                            </li>
+                        </ul>
                     </div>
-                    <input type="button" name="button_site" value="VISIT LIVE SITE">
-    </div>
-
-    <div class="price_container">
-        <div class="price_name"><h3>РАСЧЕТ СТОИМОСТИ</h3></div>
-        <div class="site_type"><h4>ТИП ЗАЙТА</h4></div>
-        <select name="type_list1" id="type_list">
-            <option value="opt1">Option1</option>
-            <option value="opt2">Option2</option>
-            <option value="opt3">Option3</option>
-            <option value="opt4">Option4</option>
-            <option value="opt5">Option5</option>
-            <option value="opt6">Option6</option>
-        </select>
-
-        <div class="site_type"><h4>ДИЗАЙН</h4></div>
-        <select name="design_list1" id="design_list">
-            <option value="opt1">Option1</option>
-            <option value="opt2">Option2</option>
-            <option value="opt3">Option3</option>
-            <option value="opt4">Option4</option>
-            <option value="opt5">Option5</option>
-            <option value="opt6">Option6</option>
-        </select>
-
-        <div class="site_type"><h4>АДАПТИВНОСТЬ</h4></div>
-        <select name="adaptive_list1" id="adaptive_list">
-            <option value="opt1">Option1</option>
-            <option value="opt2">Option2</option>
-            <option value="opt3">Option3</option>
-            <option value="opt4">Option4</option>
-            <option value="opt5">Option5</option>
-            <option value="opt6">Option6</option>
-        </select>
-
-        <div class="time"><b>Сроки</b></div>
-        <input type="number" name="time">
-        <div class="cost"><b>Стоимость</b></div>
-        <input type="number" name="price">
-    </div>
-
-    <div class="stat_container">
-
-        <div class="stat_name"><h3>НЕМНОГО СТАТИСТИКИ</h3></div>
-            <div class="stat1">
-                <img src="img/stats_icons/smile_icon.png" alt="Smile">
-                <div class="stat1_number"><b>120</b></div>
-                <div class="stat1_text">СЧАСТЛИВЫХ КЛИЕНТОВ</div>
-            </div>
-
-             <div class="stat2">
-                <img src="img/stats_icons/slash_icon_stats.png" alt="Slash">
-                <div class="stat2_number"><b>4.600</b></div>
-                <div class="stat2_text">ЧАСОВ РАБОТЫ</div>
-            </div>
-
-             <div class="stat3">
-                <img src="img/stats_icons/completed_icon.png" alt="Completed">
-                <div class="stat3_number"><b>340</b></div>
-                <div class="stat3_text">ПРОЕКТОВ ЗАВЕРШЕНО</div>
-            </div>
-
-             <div class="stat4">
-                <img src="img/stats_icons/reward_icon.png" alt="Reward">
-                <div class="stat4_number"><b>23</b></div>
-                <div class="stat4_text">НАГРАД ПОЛУЧЕНО</div>
-            </div>
-
-    </div>
-
-    <div class="comments_container">
-
-        <div class="comments_name"><h3>ОТЗЫВЫ</h3></div>
-            <img src="img/comment_photo.png" alt="CommentPhoto">
-            <div class="comment_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nisi sapiente omnis reprehenderit ex delectus illum, rerum officia rem cum temporibus. <br>Obcaecati pariatur placeat odio tempora amet, cum explicabo repellendus, atque id ex a minus!</div>
-            <div class="comment_person"><p><b>Михаил,</b> Ген директор ПАО "Газпром"</p></div>
-    </div>
-
-
-    <div class="contacts_container">
-
-        <div class="contacts_name"><h3>МОИ КОНТАКТЫ</h3></div>
-            <div class="contacts_text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, porro!</p></div>
-            <div class="contacts">
-                <div class="adress">
-                    <img src="img/contacts_icons/geo_icon.png" alt="GeoIcon">
-                    <div class="geo_text">Санкт-Петербург Невский проспект 11</div>
                 </div>
-                <div class="mail">
-                    <img src="img/contacts_icons/mail_icon.png" alt="MailIcon">
-                    <div class="mail_text">info@companyname.com</div>
-                </div>
-                <div class="phone">
-                    <img src="img/contacts_icons/phone_icon.png" alt="PhoneIcon">
-                    <div class="phone_text">+7 999 999-99-99</div>
-                </div>
+
             </div>
 
-            <div class="feedback_container"><h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4></div>
-                <div class="feedback_forms">
-                    <input type="text" name="name" placeholder="Имя">
-                    <input type="text" name="email" placeholder="Email">
-                    <textarea name="text1" id="message" cols="30" rows="5" placeholder="Сообщение"></textarea>
-                </div>
-             <input type="button" name="button_send" value="Отправить">
-            <div class="social_sites">
-                <img id="fb_icon" src="img/social_icons/fb.png" alt="FB">
-                <img id="twitter_icon" src="img/social_icons/twitter.png" alt="twitter">
-                <img id="ball_icon" src="img/social_icons/ball_icon.png" alt="ball">
-                <img id="cat_icon" src="img/social_icons/cat_icon.png" alt="cat">
-                <img id="inst_icon" src="img/social_icons/inst_icon.png" alt="inst">
-                <img id="in_icon" src="img/social_icons/in_icon.png" alt="in">
-            </div>
+        </section>
 
-            <img id="map" src="img/map_copy.png" alt="map">
-            <img id="iamhere" src="img/iamhere_icon.png" alt="iamhere">
-            <div class="iamhere_text"><b>I AM HERE</b></div>
-    </div>
+    </main>
+    <footer>
 
-    <div class="end">Copyright © 2021 Андрей Браун. Design by Web</div>
-
+    </footer>
+    
 </body>
 </html>
