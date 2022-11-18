@@ -286,3 +286,127 @@
     padding-bottom: 5px;
     color: #384354; 
 }
+
+.list_project_text{
+    color: #3f495a;
+    opacity: .7;
+}
+
+/* price */
+
+.price_wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+.price{
+    max-width: 900px;
+}
+
+
+.list_wrapper{
+    width: 900px;
+}
+
+.price_list{
+    text-align: left;
+}
+
+.list_header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #1c2534;
+}
+
+.price_select{
+    width: 900px;
+    height: 50px;
+    background-color: #9ca0a7;
+    opacity: .5;
+}
+
+.price_form{
+    padding: 10px 0px 20px 0px;
+}
+
+.price_form:hover{
+    opacity: .7;
+}
+
+.line_inside_price{
+    width: 900px;   
+    border: 1px solid #9ca0a7;
+    background-color: #9ca0a7;
+}
+
+.time_and_price{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: .5px;
+}
+
+.tap_text,
+.tap_num{
+    text-align: left;
+    padding-top: 20px;
+}
+
+.tap_text > h3{
+    padding-bottom: 10px
+}
+
+.tap_num > p{
+    padding-bottom: 10px;
+}
+
+/* stats */
+
+.stat_wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 40px;
+    background: url(../img/stats_main.png);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.stat_list_img{
+
+}
+
+.stat_list{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.stat_list_img{
+    padding-bottom: 30px;
+}
+
+.stat_list_title{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+
+.stat_list_text{
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.stat_list > .stat_list_title{
+    align-self: center;
+}
