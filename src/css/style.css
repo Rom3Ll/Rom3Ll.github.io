@@ -378,10 +378,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.stat_list_img{
-
-}
-
 .stat_list{
     width: 900px;
     display: flex;
@@ -409,4 +405,188 @@
 
 .stat_list > .stat_list_title{
     align-self: center;
+}
+
+/* reviews */
+
+
+.reviews_wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.review_title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.review_img{
+    padding-bottom: 30px;
+}
+
+.review_text{
+    font-family: 'Calibri', sans-serif;
+    font-size: 1.4em;
+    padding-bottom: 20px;
+    max-width: 710px;
+    letter-spacing: .5;
+}
+
+.review_small_text{
+    font-family: 'Calibri', sans-serif;
+    font-style: normal;
+}
+
+/* contacts */
+
+.contacts_wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: url(/img/contacts_icons/bg.png);
+    padding-bottom: 40px;
+}
+
+.contacts_title{
+    color: #fff;
+}
+
+.contacts_text{
+    font-family: 'Calibri', sans-serif;
+    font-style: normal;
+    letter-spacing: .5;
+    color: #fff;
+}
+
+.list_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacts_list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 20px;
+    max-width: 625px;
+}
+
+.list_item{
+    padding-right: 70px;
+}
+
+.list_img{
+    padding-bottom: 10px;
+}
+
+.list_text{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    max-width: 160px;
+}
+
+.message{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: -1.25px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.contacts_form{
+    min-width: 732px;
+}
+
+.form_name{
+    margin-right: 28px;
+}
+
+.w{
+    width: 352px;
+    min-height: 35px;
+}
+
+
+.form_textarea{
+    margin-top: 10px;
+    resize: none;
+}
+
+.w,
+.form_textarea{
+    opacity: .7;
+}
+
+.send{
+    margin-top: 30px;
+    min-height: 45px;
+    min-width: 125px;
+    border: 2px #fff solid;
+    border-radius: 5px;
+    background: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.25px;
+    font-size: 21px;
+}
+
+.map{
+    width: 1920px;
+    height: 356px;
+    background: url(/img/map_copy.png);
+    position: relative;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.map_text_wrapper{
+    width: 135px;
+    height: 48px;
+    background: #fff;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 6px 8.9px rgba(0, 0, 0, 0.23);
+}
+
+.map_text_wrapper:hover{
+    cursor: pointer;
+}
+
+.map_text{
+    padding-top: 17px;
+    text-transform: uppercase;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+
+.all_rights_wrapper{
+    min-height: 90px;
+    background: url(/img/all_rights.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color:#fff;
 }
